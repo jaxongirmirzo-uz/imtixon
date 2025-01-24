@@ -1,0 +1,457 @@
+@import "./global.css";
+
+/* page one start */
+
+header {
+  margin-bottom: 80px;
+}
+
+.page__one {
+  display: flex;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.page__one__info {
+  width: 100%;
+  max-width: 570px;
+  margin-right: 64px;
+}
+.page__one__title {
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 74.4px;
+  letter-spacing: -2px;
+  font-family: "Martian Mono";
+  margin-bottom: 24px;
+}
+.page__one__description {
+  color: #385159;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  font-family: "Inter";
+  margin-bottom: 32px;
+}
+.btn-white {
+  padding: 20.5px 64px 20.5px 24px;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 23.4px;
+  letter-spacing: -1px;
+  font-family: "Martian Mono";
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+.developers {
+  display: flex;
+}
+.developers__image {
+  display: flex;
+  margin-right: 12px;
+}
+.developer__china {
+  margin-right: -8px;
+}
+.developer__russian {
+  margin-right: -8px;
+}
+.developer__france {
+  margin-right: -8px;
+}
+.developers__mark {
+}
+.stars__mark {
+}
+.developers__amount {
+  font-family: "Martian Mono";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: -1px;
+}
+.page__one__image {
+}
+.page__one__photo {
+}
+
+/* page one end */
+
+/* page two start  */
+
+.page__two {
+  display: flex;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.page-two__image {
+  margin-right: 80px;
+}
+.page-two__photo {
+  border-radius: 10px;
+}
+.page-two__info {
+}
+.page-two__title {
+  font-family: Martian Mono;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 65px;
+  letter-spacing: -2px;
+  margin-bottom: 34px;
+}
+.page-two__list {
+}
+.page-two__list__item {
+  margin-bottom: 24px;
+}
+.page-two__item__info {
+  display: flex;
+  align-items: center;
+}
+.page-two__info__check {
+  margin-right: 14px;
+}
+.page-two__item__info__description {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+}
+
+/* page two end  */
+
+/* page-three start  */
+
+.page-three {
+  display: flex;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.page-three__info {
+  width: 100%;
+  max-width: 530px;
+  margin-right: 80px;
+}
+.page-three__title {
+  font-family: Martian Mono;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 65px;
+  letter-spacing: -2px;
+  color: #062630;
+  margin-bottom: 24px;
+}
+.page-three__description {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  color: #385159;
+}
+.page-three__image {
+}
+.page-three__photo {
+  border-radius: 10px;
+}
+
+/* page-three end  */
+
+/* page-four start */
+
+.page-four {
+  background-color: #faf5f3;
+  border-radius: 10px;
+  margin-bottom: 120px;
+}
+
+.page-four__title {
+  width: 100%;
+  max-width: 512px;
+  color: #062630;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.04em;
+  font-family: "Martian Mono";
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.page-four__list {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 60px;
+  padding-left: 60px;
+  gap: 24px;
+  padding-bottom: 40px;
+}
+.page-four__list__item {
+}
+.page-four__item__image {
+  margin-bottom: 8px;
+}
+.page-four__item__description {
+  font-family: "Martian Mono";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.4px;
+  letter-spacing: -0.01em;
+  color: #062630;
+}
+
+/* page-four end */
+
+/* page-five start */
+
+.page-five {
+  margin-bottom: 120px;
+}
+.page-five__title {
+  text-align: center;
+  font-family: "Martian Mono";
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 65px;
+  letter-spacing: -2px;
+  margin-bottom: 64px;
+}
+.page-five__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card__one {
+  padding: 24px;
+  border: 2px solid #e6e1df;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 286px;
+}
+.cards__type {
+  color: #062630;
+  font-family: Martian Mono;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26.4px;
+  letter-spacing: -1px;
+  margin-bottom: 24px;
+}
+.cards__cost {
+  color: #062630;
+  font-family: "Martian Mono";
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 44.2px;
+  letter-spacing: -1px;
+  margin-bottom: 49px;
+}
+.page-five__payment {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  color: #385159;
+}
+.facilities__list {
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.facilities__list__item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #385159;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  margin-bottom: 16px;
+}
+.check-btn {
+}
+.facilities__type {
+}
+.card-one__btn {
+  padding: 20px 33px;
+  border: 2px solid #062630;
+  border-radius: 8px;
+  color: #062630;
+  font-family: "Martian Mono";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.4px;
+  letter-spacing: -1px;
+  background-color: #fff5ef;
+}
+.card__two {
+  border: 1px solid #e6e1df;
+  background-color: #e6e1df;
+  border-radius: 8px;
+  padding: 40px 24px;
+  width: 350px;
+  height: 390px;
+}
+.card-two__btn {
+  padding: 20px 65px;
+  background-color: #fff5ef;
+  border: 2px solid #062630;
+  font-family: "Martian Mono";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.4px;
+  letter-spacing: -1px;
+  border-radius: 8px;
+}
+.card__three {
+  padding: 24px;
+  border: 2px solid #e6e1df;
+  border-radius: 8px;
+  font-family: "Martian Mono";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.4px;
+  letter-spacing: -1px;
+}
+.card-three__btn {
+  padding: 20px 60px;
+  border: 2px solid #062630;
+  border-radius: 8px;
+  background-color: #fff5ef;
+
+  font-family: "Martian Mono";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.4px;
+  letter-spacing: -1px;
+}
+
+/* page-five end */
+
+/* page-six start */
+
+.page-six {
+  justify-items: center;
+  margin-bottom: 120px;
+  width: 100%;
+  max-width: 970px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.page-six__small-image {
+  margin-bottom: 32px;
+}
+.page-six__title {
+  font-family: "Martian Mono";
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 44.2px;
+  letter-spacing: -1px;
+  color: #062630;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.title__owner {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  color: #385159;
+}
+
+/* page-six end */
+
+/* footer start  */
+
+.footer {
+  background-color: #062630;
+}
+.footer__container {
+}
+
+.footer__info {
+  margin-right: auto;
+  margin-left: auto;
+  justify-items: center;
+}
+
+.footer__title {
+  font-family: "Martian Mono";
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 65px;
+  letter-spacing: -2px;
+  text-align: center;
+  color: #faf5f3;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.footer__btn {
+  padding: 20.5px 64px 20.5px 64px;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 8px;
+  font-family: "Martian Mono";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.4px;
+  letter-spacing: -1px;
+  margin-bottom: 24px;
+  &:hover {
+    background-color: #ffffff;
+    color: #062630;
+    transition: 0.3s;
+  }
+  &:active {
+    opacity: 0.6;
+  }
+}
+.developers {
+  gap: 30px;
+  margin-bottom: 88px;
+}
+
+.developers__amount-f {
+  color: #faf5f3;
+
+  font-family: "Martian Mono";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: -1px;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social__medias {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.footer__date {
+  color: #ffffff;
+  font-family: "Martian Mono";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: -1px;
+}
+.butterfly__icon {
+}
+.in__icon {
+}
+/* footer end  */
