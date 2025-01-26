@@ -4,12 +4,50 @@
 
 header {
   margin-bottom: 80px;
+  background: -webkit-linear-gradient(
+    315deg,
+    rgb(156, 201, 218),
+    rgb(250, 245, 243) 27%
+  );
+  background: -moz-linear-gradient(
+    315deg,
+    rgb(156, 201, 218),
+    rgb(250, 245, 243) 27%
+  );
+  background: linear-gradient(
+    315deg,
+    rgb(156, 201, 218),
+    rgb(250, 245, 243) 27%
+  );
+}
+
+.header__container {
+}
+.header__box {
+  background-image: url(/images/pattern-light-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.site__logo__container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-top: 25px;
+}
+
+.site__logo__text {
+  font-family: "Fira Code";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26.24px;
+  letter-spacing: -0.06em;
+  color: #062630;
 }
 
 .page__one {
   display: flex;
   align-items: center;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
 }
 .page__one__info {
   width: 100%;
@@ -23,6 +61,9 @@ header {
   letter-spacing: -2px;
   font-family: "Martian Mono";
   margin-bottom: 24px;
+  background: linear-gradient(107.24deg, #fea36f -11.37%, #062630 61.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .page__one__description {
   color: #385159;
@@ -35,7 +76,7 @@ header {
 }
 .btn-white {
   padding: 20.5px 64px 20.5px 24px;
-  border: 2px solid black;
+  border: 2px solid #062630;
   border-radius: 8px;
   font-weight: 600;
   font-size: 28px;
@@ -44,6 +85,16 @@ header {
   font-family: "Martian Mono";
   background-color: transparent;
   margin-bottom: 20px;
+  &:hover {
+    background-color: #062630;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  &:active {
+    opacity: 0.6;
+    cursor: progress;
+  }
 }
 .developers {
   display: flex;
@@ -292,6 +343,16 @@ header {
   line-height: 23.4px;
   letter-spacing: -1px;
   background-color: #fff5ef;
+  &:hover {
+    background-color: #062630;
+    color: #e6e1df;
+    transition: 0.4s;
+  }
+  &:active {
+    cursor: pointer;
+    cursor: progress;
+    opacity: 0.6;
+  }
 }
 .card__two {
   border: 1px solid #e6e1df;
@@ -311,6 +372,16 @@ header {
   line-height: 23.4px;
   letter-spacing: -1px;
   border-radius: 8px;
+  &:hover {
+    background-color: #062630;
+    color: #e6e1df;
+    transition: 0.4s;
+  }
+  &:active {
+    cursor: pointer;
+    cursor: progress;
+    opacity: 0.6;
+  }
 }
 .card__three {
   padding: 24px;
@@ -333,6 +404,16 @@ header {
   font-weight: 600;
   line-height: 23.4px;
   letter-spacing: -1px;
+  &:hover {
+    background-color: #062630;
+    color: #e6e1df;
+    transition: 0.4s;
+  }
+  &:active {
+    cursor: pointer;
+    cursor: progress;
+    opacity: 0.6;
+  }
 }
 
 /* page-five end */
@@ -435,6 +516,7 @@ header {
 .footer__socials {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 25px;
 }
 
 .social__medias {
